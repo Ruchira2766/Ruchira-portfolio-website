@@ -1,0 +1,148 @@
+/* Reset margins */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  cursor: progress;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #020208;
+  padding: 10px;
+}
+
+/* Navbar list */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* makes links in a row */
+  justify-content: flex-end; /* center horizontally */
+}
+
+/* Navbar items */
+.navbar li {
+  margin: 0 15px;
+}
+
+/* Navbar links */
+.navbar a {
+  text-decoration: none; /* Removes underline */
+  color: white; /*White text color */
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: background 0.3s;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  background-color: #130101;
+  border-radius: 5px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: center; /* Stack vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center;    /* Center horizontally */
+  gap: 32px;               /* Space between image and text */
+  margin: 40px 0;        /* Space above and below */
+  min-height: 60vh;       /* Optional: helps with vertical centering */
+}
+
+.portfolio-img {
+  width: 300px;      /* adjust size */
+  height: auto;      /* keeps aspect ratio */
+  border-radius: 10px; /* rounded corners */
+  display: block;    /* makes it a block element */
+  margin: 20px 20px; /* centers the image */
+}
+
+.about-section {
+  background-color: #f5f5f5;  /* Light gray background */
+  padding: 50px 20px;          /* Space around content */
+  text-align: center;           /* Center text and image */
+}
+
+.about-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;            /* Limit width for readability */
+  margin: 0 auto 20px auto;    /* Center paragraph */
+}
+
+.about-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;          /* Makes the photo circular */
+  margin-top: 20px;
+}
+
+/* Container for Contact + Sign In */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px auto;
+  max-width: 1000px;
+  gap: 24px;
+  padding: 40px;
+}
+
+/* Contact box */
+.contact {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+  margin: 10px; 
+}
+
+.form{
+    width: 80%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 35px #474345;
+}
+
+.form-title{
+    text-align: center;
+}
+
+.form-label{
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.form-input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-button{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(72, 14, 130);
+    color: white;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: darkblue;
+    width: 35%;
+}
